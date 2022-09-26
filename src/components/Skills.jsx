@@ -61,10 +61,10 @@ const Skills = () => {
             <img className='pt-3 w-20 mx-auto' src={Mongo} alt='HTML icon' />
             <p className='my-4'>MONGO DB</p>
           </div>
-          {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={AWS} alt='HTML icon' />
-            <p className='my-4'>AWS</p>
-          </div> */}
+          <div className='shadow-md shadow-yellow-600 hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />
+            <p className='my-4'>Firebase</p>
+          </div>
         </div>
       </div>
     </div>

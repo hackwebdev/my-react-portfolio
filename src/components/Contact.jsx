@@ -15,7 +15,7 @@ const Contact = () => {
         <div className=' flex justify-center items-center'>
           <form
             method='POST'
-            action='https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c'
+            action='https://getform.io/f/fe6ff876-2803-421c-98b8-fcd14b8476d2'
             className='flex flex-col max-w-[600px] w-full'
           >
             <p className='py-6  text-pink-600'>
