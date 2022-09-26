@@ -35,7 +35,7 @@ const Experience = () => {
                 <a
                   href='https://netflix-react-dd022.web.app/'
                   target='_blank'
-                  rel='noopener'
+                  rel='noreferrer'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
@@ -44,7 +44,7 @@ const Experience = () => {
                 <a
                   href='https://github.com/rjaybernardo/netflix-reactjs'
                   target='_blank'
-                  rel='noopener'
+                  rel='noreferrer'
                 >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
