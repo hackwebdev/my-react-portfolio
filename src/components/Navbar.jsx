@@ -4,9 +4,9 @@ import {
   FaTimes,
   FaGithub,
   // FaLinkedin,
-  FaSkype,
-  FaFacebook,
-  FaLinkedinIn,
+  // FaSkype,
+  // FaFacebook,
+  // FaLinkedinIn,
 } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 font-bold'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '100px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '100px' }} />
       </div>
 
       {/* menu */}
@@ -117,6 +117,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/rjaybernardo'
               target='_blank'
+              rel='noreferrer'
             >
               Github <FaGithub size={30} />
             </a>
